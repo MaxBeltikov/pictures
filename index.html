@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> shizogallery</title>
+</head>
+
+<body>
+    <div class="modal">
+        <a class="arrowLeft" href="#/" onclick="slideLeft()"><img src="right-arrow.png" alt=""></a>
+        <a class="arrowRight" href="#/" onclick="slideRight()"><img src="right-arrow.png" alt=""></a>
+        <img id="picture" src="unnamed (1).jpg" alt="" onclick="closeModal()">
+    </div>
+    <div class="paintings"></div>
+    <script src="script.js"></script>
+    <!-- MODULE для того чтобы импортировать db -->
+    <script src="posts.js" type="module"></script>
+</body>
+
+
+</html>
